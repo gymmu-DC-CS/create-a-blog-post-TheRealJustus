@@ -6,6 +6,46 @@
 
 body {
   margin: 0;
-  background-color: lightgray;
+  background-color: lightblue;
   font-family: sans-serif;
+  column-count: 2;
+  column-fill: auto;
+  height: 100%;
+}
+
+
+#column1 {
+  break-after: column;
+}
+
+p {
+  color: black;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 10px;
+  border-color: magenta;
+}
+
+ul {
+  color: black;
+}
+
+h2 {
+  color: orange;
+}
+
+h1 {
+  color: orange;
+}
+
+#divdesign {
+  background-color: white;
+  border: 5px #5C4033 solid;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10px;
 }
