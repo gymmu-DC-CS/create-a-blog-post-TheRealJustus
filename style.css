@@ -8,14 +8,6 @@ body {
   margin: 0;
   background-color: lightblue;
   font-family: sans-serif;
-  column-count: 2;
-  column-fill: auto;
-  height: 100%;
-}
-
-
-#column1 {
-  break-after: column;
 }
 
 p {
@@ -38,6 +30,9 @@ h2 {
 
 h1 {
   color: orange;
+  font-size: 80px;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 #divdesign {
@@ -48,4 +43,11 @@ h1 {
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 10px;
+}
+
+#column1 {
+  break-after: column;
+  column-count: 2;
+  column-fill: auto;
+  height: 100%;
 }
