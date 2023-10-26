@@ -51,6 +51,8 @@ h1 {
 
 #right {
   float: right;
+  margin-left: 5%;
+  display: block;
 }
 
 #column1 {
