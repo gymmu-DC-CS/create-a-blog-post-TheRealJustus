@@ -6,6 +6,79 @@
 
 body {
   margin: 0;
-  background-color: lightgray;
+  background-color: lightblue;
   font-family: sans-serif;
+}
+
+p {
+  color: black;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 10px;
+  border-color: magenta;
+}
+
+ul {
+  color: black;
+}
+
+h2 {
+  color: orange;
+}
+
+h1 {
+  color: orange;
+  font-size: 80px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.divdesign {
+  background-color: white;
+  border: 7px #5c4033 solid;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10px;
+  padding-right: 3px;
+}
+
+#column1 {
+  break-after: column;
+  column-count: 2;
+  column-fill: auto;
+  height: 100%;
+}
+
+.rightpart {
+  float: left;
+  width: 50%;
+}
+
+.leftpart {
+  float: left;
+  width: 50%;
+}
+
+@keyframes color-changer-border {
+  0% {
+    border-color: #5c4033;
+  }
+  100% {
+    border-color: orange;
+  }
+}
+
+.divdesign:hover {
+  border-color: orange;
+  border-width: 10px;
+}
+
+.picture {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
