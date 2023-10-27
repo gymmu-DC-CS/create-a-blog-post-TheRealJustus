@@ -35,25 +35,17 @@ h1 {
   padding-bottom: 25px;
 }
 
-#divdesign {
+#divdesign{
   background-color: white;
-  border: 5px #5C4033 solid;
+  border: 5px #5c4033 solid;
   border-radius: 10px;
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 10px;
+
 }
 
-#left {
-  float: left;
-}
-
-#right {
-  float: right;
-  margin-left: 5%;
-  display: block;
-}
 
 #column1 {
   break-after: column;
@@ -61,6 +53,17 @@ h1 {
   column-fill: auto;
   height: 100%;
 }
+
+.rightpart {
+  float: left;
+  width: 50%;
+}
+
+.leftpart {
+  float: left;
+  width: 50%;
+}
+
 
 * {
   box-sizing: border-box;
